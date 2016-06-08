@@ -11,3 +11,13 @@ Its use is in detecting periodicities. The autocorrelation function has its maxi
 The code below computes autocorrelation on an FFT frame to find the bin of the fundamental frequency. It keeps only the positive lags, thus discarding the first half of the correlation values. 
 
 [code (auto-correlation)](https://gist.github.com/endolith/255291)
+
+###Pros
+* Resistant to noise
+* Good for lower pitches and small frequency ranges: used often for speech analysis
+
+###Cons
+* Risk of octave inaccuracy, since there can be higher peaks than the fundamental
+* Requires multiple periods to be accurate (FFT frame length), so some averaging is unavoidable
+* Works mainly for harmonic signals
+* Resolution is dependent on sampling rate
