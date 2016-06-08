@@ -8,10 +8,10 @@ Here is [code](https://gist.github.com/endolith/255291) for some of the simpler 
 Count zero-crossings in a given number of samples and compute frequency from this. 
 
 ###Pros: 
-*used for basic guitar tuners
+* used for basic guitar tuners
 
 ###Cons: 
-*inaccurate when overtones or noise cause multiple zero-crossings per period
+* inaccurate when overtones or noise cause multiple zero-crossings per period
 
 ##Autocorrelation
 
