@@ -1,5 +1,7 @@
 # Pitch Tracking
 
+Here is a [link](http://miracle.otago.ac.nz/tartini/papers/Philip_McLeod_PhD.pdf) to Philip McLeod's thesis: Fast, Accurate Pitch Detection Tools for Music Analysis
+
 ##Autocorrelation
 
 Autocorrelation is cross-correlation of a signal with itself. 
