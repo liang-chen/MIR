@@ -10,4 +10,4 @@ Categories:
 * Time domain approach (rarely used, due to unreliability)
 * Spectral domain approach: HFC, SF (modulus), NWPD (phase), and RCD (complex domain). HFC, SF and RCD were only looking at amplitude increase but ignoring the decrease.
 * Probabilistic models: [conditional ICA](http://eecs.qmul.ac.uk/~markp/2003/AbdallahPlumbley03-ica-probability.pdf)
-* Data-drive approach: using CNN or [LSTM]((http://ismir2010.ismir.net/proceedings/ismir2010-101.pdf).
+* Data-drive approach: using CNN or [LSTM](http://ismir2010.ismir.net/proceedings/ismir2010-101.pdf).
