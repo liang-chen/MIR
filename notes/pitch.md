@@ -4,16 +4,18 @@ Here is a [link](http://miracle.otago.ac.nz/tartini/papers/Philip_McLeod_PhD.pdf
 
 Here is [code](https://gist.github.com/endolith/255291) for some of the simpler pitch-detection algorithms described below, such as zero-crossing, FFT peak, or autocorrelation.
 
-##Zero-Crossing
+##Selected time domain algorithms
+
+###Zero-Crossing
 Count zero-crossings in a given number of samples and compute frequency from this. 
 
-###Pros: 
+####Pros: 
 * used for basic guitar tuners
 
-###Cons: 
+####Cons: 
 * inaccurate when overtones or noise cause multiple zero-crossings per period
 
-##Autocorrelation
+###Autocorrelation
 
 Autocorrelation is cross-correlation of a signal with itself. 
 
@@ -34,3 +36,6 @@ The code below computes autocorrelation on an FFT frame to find the bin of the f
 * Resolution is dependent on sampling rate
 
 Read about type II autocorrelation in the thesis. Here, only type I was described.
+
+#Selected frequency domain algorithms
+
