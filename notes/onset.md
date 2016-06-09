@@ -1,6 +1,6 @@
 # Onset Detection
 
-Onset is defined as the beginning position of a note attack, which is an important feature to identify beats or segment music. To detect onsets, we usually look at a "reduced" version of original signal -- the onset envolope, and perform peak picking to localize candidate onsets. Usually the onset detection algorithms consists of three major steps: preprocessing, reduction and onset localization. In the reduction step, we need to define detection/ novelty funtions which manifests the occurence of transients. After reduction, we apply peak picking for localization.
+Onset is defined as the beginning position of a note attack, which is an important feature to identify beats or segment music. To detect onsets, we usually look at a "reduced" version of original signal -- the onset envelope, and perform peak picking to localize candidate onsets. Usually the onset detection algorithms consists of three major steps: preprocessing, reduction and onset localization. In the reduction step, we need to define detection/ novelty funtions which manifests the occurence of transients. After reduction, we apply peak picking for localization.
 
 Some recourses:
 * [slides (detection function)](http://www.nyu.edu/classes/bello/MIR_files/3-novelty.pdf)
