@@ -1,6 +1,11 @@
 Feature Extraction
 
-Useful links:
+* Zero crossing rate
+* Spectral features
+* MFCC
+
+
+Useful resources:
 
 http://musicinformationretrieval.com/
 
