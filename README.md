@@ -4,3 +4,4 @@ We keep a collection of notes and code regarding the fundamentals of MIR here fo
 * [Onset Detection](https://github.com/liang-chen/MIR/blob/master/notes/onset.md)
 * [Pitch Tracking](https://github.com/liang-chen/MIR/blob/master/notes/pitch.md)
 * [Feature Extraction](https://github.com/liang-chen/MIR/blob/master/notes/feature.md)
+* [Beat Tracking](https://github.com/liang-chen/MIR/blob/master/notes/beats.md)
