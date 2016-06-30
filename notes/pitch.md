@@ -4,6 +4,10 @@ Here is a [link](http://miracle.otago.ac.nz/tartini/papers/Philip_McLeod_PhD.pdf
 
 Here is [code](https://gist.github.com/endolith/255291) for some of the simpler pitch-detection algorithms described below, such as zero-crossing, FFT peak, or autocorrelation.
 
+Here is a [C++ library with a python wrapper: aubio](https://github.com/aubio/aubio)
+
+For more libraries and a detailed description of frequency domain algorithms, find pitch_detection_methods in src.
+
 ##Selected time domain algorithms
 
 ###Zero-Crossing
