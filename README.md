@@ -6,3 +6,4 @@ We keep a collection of notes and code regarding the fundamentals of MIR here fo
 * [Feature Extraction](https://github.com/liang-chen/MIR/blob/master/notes/feature.md)
 * [Beat Tracking](https://github.com/liang-chen/MIR/blob/master/notes/beats.md)
 * [Timber Features](https://github.com/liang-chen/MIR/blob/master/src/timbre_analysis_methods.ipynb)
+* [Tonality](to be added)
